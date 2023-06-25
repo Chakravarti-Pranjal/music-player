@@ -150,6 +150,9 @@ margin-left: 2.5rem;
     .music-player {
       font-size: 14px;
     }
+      img#song-image {
+    margin: auto;
+}
   }
   
   .playlist-image-container {
