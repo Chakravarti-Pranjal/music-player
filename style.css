@@ -79,6 +79,20 @@ margin-left: 2.5rem;
   .hide {
     display: none;
   }
+
+  .anime{
+    animation: rotate  7s linear infinite;
+}
+
+@keyframes rotate{
+    from{
+transform: rotate(0deg);
+    }
+    to{
+transform: rotate(360deg);
+    }
+}
+
   #progress-bar {
     position: relative;
     width: 100%;
@@ -150,7 +164,7 @@ margin-left: 2.5rem;
     .music-player {
       font-size: 14px;
     }
-      img#song-image {
+img#song-image {
     margin: auto;
 }
   }
