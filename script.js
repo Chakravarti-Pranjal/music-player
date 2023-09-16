@@ -1,3 +1,4 @@
+const img = document.querySelector('img');
 const prevButton = document.getElementById("prev");
 const nextButton = document.getElementById("next");
 const repeatButton = document.getElementById("repeat");
@@ -111,6 +112,7 @@ const playAudio = () => {
   audio.play();
   pauseButton.classList.remove("hide");
   playButton.classList.add("hide");
+  img.classList.add('anime');
 };
 
 //repeat button
@@ -153,6 +155,7 @@ const pauseAudio = () => {
   audio.pause();
   pauseButton.classList.add("hide");
   playButton.classList.remove("hide");
+  img.classList.remove('anime');
 };
 
 //previous song ( you can't go back to a randomly played song)
